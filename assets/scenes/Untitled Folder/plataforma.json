@@ -1,0 +1,121 @@
+{
+    "Camera": {
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "rotation": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "zoom": 1.0
+    },
+    "Developer": "Luis Santos",
+    "GameObjects": [
+        {
+            "children": [],
+            "depth": 0,
+            "height": 1,
+            "name": "main",
+            "originX": 0,
+            "originY": 0,
+            "persistent": true,
+            "prefab": false,
+            "script": "assets/scripts/moves/main.lua",
+            "solid": false,
+            "sprite": "None",
+            "transform": {
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 1
+        },
+        {
+            "children": [],
+            "depth": 0,
+            "height": 52,
+            "name": "player",
+            "originX": 12,
+            "originY": 25,
+            "persistent": false,
+            "prefab": false,
+            "script": "assets/scripts/moves/player.lua",
+            "solid": false,
+            "sprite": "player_idle",
+            "transform": {
+                "pivot": {
+                    "x": 32.0,
+                    "y": 32.0
+                },
+                "position": {
+                    "x": 200.0,
+                    "y": 353.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 25
+        }
+    ],
+    "Images": [
+        {
+            "filename": "assets/Player/Celebrate.png",
+            "key": "player_win"
+        },
+        {
+            "filename": "assets/Player/Idle.png",
+            "key": "player_idle"
+        },
+        {
+            "filename": "assets/Player/Die.png",
+            "key": "player_die"
+        },
+        {
+            "filename": "assets/Player/Jump.png",
+            "key": "player_jump"
+        },
+        {
+            "filename": "assets/Player/Run.png",
+            "key": "player_run"
+        },
+        {
+            "filename": "assets/wabbit_alpha.png",
+            "key": "wabbit"
+        }
+    ],
+    "NumObjects": 8,
+    "SceneName": "Scene",
+    "SceneVersion": "0.1",
+    "ShowDebug": true,
+    "Window": {
+        "b": 0,
+        "fps": 60,
+        "fullscreen": false,
+        "g": 0,
+        "heigh": 750,
+        "r": 0,
+        "title": "Moves",
+        "width": 1020
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "Camera": {
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "rotation": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "zoom": 1.0
+    },
+    "Config": {
+        "enableCollisions": false,
+        "enableEdit": true,
+        "enableLiveReload": true,
+        "gcObjectsRemoved": 180,
+        "reloadInterval": 5,
+        "showDebug": true,
+        "showStats": false
+    },
+    "Developer": "Luis Santos",
+    "GameObjects": [
+        {
+            "children": [],
+            "collidable": true,
+            "components": [],
+            "height": 1,
+            "layer": 0,
+            "name": "Main",
+            "originX": 0,
+            "originY": 0,
+            "persistent": false,
+            "pickable": false,
+            "prefab": false,
+            "script": "mainOvni.lua",
+            "solid": false,
+            "transform": {
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 1
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "collidable": true,
+                    "components": [
+                        {
+                            "FlipX": false,
+                            "FlipY": false,
+                            "clip": {
+                                "height": 36.0,
+                                "width": 14.0,
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "color": {
+                                "a": 255,
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                            },
+                            "graph": "cano",
+                            "type": "SpriteComponent"
+                        }
+                    ],
+                    "height": 18,
+                    "layer": 0,
+                    "name": "canoA",
+                    "originX": 0,
+                    "originY": 0,
+                    "persistent": false,
+                    "pickable": false,
+                    "prefab": false,
+                    "script": "assets/scripts/shooter/cano.lua",
+                    "solid": false,
+                    "transform": {
+                        "pivot": {
+                            "x": 7.0,
+                            "y": 18.0
+                        },
+                        "position": {
+                            "x": 20.0,
+                            "y": 30.0
+                        },
+                        "rotation": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "skew": {
+                            "x": 0.0,
+                            "y": 0.0
+                        }
+                    },
+                    "visible": true,
+                    "width": 7
+                },
+                {
+                    "children": [],
+                    "collidable": true,
+                    "components": [
+                        {
+                            "FlipX": false,
+                            "FlipY": false,
+                            "clip": {
+                                "height": 36.0,
+                                "width": 14.0,
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "color": {
+                                "a": 255,
+                                "b": 255,
+                                "g": 255,
+                                "r": 255
+                            },
+                            "graph": "cano",
+                            "type": "SpriteComponent"
+                        }
+                    ],
+                    "height": 18,
+                    "layer": 0,
+                    "name": "canoB",
+                    "originX": 0,
+                    "originY": 0,
+                    "persistent": false,
+                    "pickable": false,
+                    "prefab": false,
+                    "script": "assets/scripts/shooter/cano.lua",
+                    "solid": false,
+                    "transform": {
+                        "pivot": {
+                            "x": 7.0,
+                            "y": 18.0
+                        },
+                        "position": {
+                            "x": 80.0,
+                            "y": 30.0
+                        },
+                        "rotation": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "skew": {
+                            "x": 0.0,
+                            "y": 0.0
+                        }
+                    },
+                    "visible": true,
+                    "width": 7
+                }
+            ],
+            "collidable": true,
+            "components": [
+                {
+                    "FlipX": false,
+                    "FlipY": false,
+                    "clip": {
+                        "height": 75.0,
+                        "width": 99.0,
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "color": {
+                        "a": 255,
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                    },
+                    "graph": "nave",
+                    "type": "SpriteComponent"
+                }
+            ],
+            "height": 37,
+            "layer": 1,
+            "name": "Player",
+            "originX": 0,
+            "originY": 0,
+            "persistent": false,
+            "pickable": false,
+            "prefab": false,
+            "script": "assets/scripts/shooter/player.lua",
+            "solid": false,
+            "transform": {
+                "pivot": {
+                    "x": 49.5,
+                    "y": 37.5
+                },
+                "position": {
+                    "x": 496.4722900390625,
+                    "y": 397.54754638671875
+                },
+                "rotation": 57.51753234863281,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 49
+        }
+    ],
+    "Images": [
+        {
+            "filename": "assets/FloorTexture.png",
+            "key": "bg"
+        },
+        {
+            "filename": "assets/exp2.png",
+            "key": "explosion"
+        },
+        {
+            "filename": "assets/ufoRed.png",
+            "key": "ufo"
+        },
+        {
+            "filename": "assets/gun02.png",
+            "key": "cano"
+        },
+        {
+            "filename": "assets/laserRed08.png",
+            "key": "lazer"
+        },
+        {
+            "filename": "assets/texture.png",
+            "key": "bala"
+        },
+        {
+            "filename": "assets/wabbit_alpha.png",
+            "key": "wabbit"
+        },
+        {
+            "filename": "assets/playerShip1_orange.png",
+            "key": "nave"
+        }
+    ],
+    "NumObjects": 18,
+    "SceneName": "Scene",
+    "SceneVersion": "0.1",
+    "Window": {
+        "b": 0,
+        "fps": 60,
+        "fullscreen": false,
+        "g": 0,
+        "heigh": 750,
+        "r": 0,
+        "title": "Moves",
+        "width": 1020
+    }
+}

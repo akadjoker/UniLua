@@ -1,0 +1,222 @@
+{
+    "Camera": {
+        "offsetX": 510.0,
+        "offsetY": 375.0,
+        "rotation": 0.0,
+        "x": 510.0,
+        "y": 375.0,
+        "zoom": 1.0
+    },
+    "Config": {
+        "enableCollisions": true,
+        "enableEdit": true,
+        "enableLiveReload": true,
+        "showDebug": true,
+        "showStats": true
+    },
+    "Developer": "Luis Santos",
+    "GameObjects": [
+        {
+            "children": [],
+            "collidable": true,
+            "components": [
+                {
+                    "graph": "tiles",
+                    "height": 16,
+                    "margin": 0,
+                    "spacing": 0,
+                    "tileHeight": 32,
+                    "tileWidth": 40,
+                    "tiles": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                    "type": "TileLayerComponent",
+                    "width": 24
+                }
+            ],
+            "height": 1,
+            "layer": 0,
+            "name": "Mapa",
+            "originX": 0,
+            "originY": 0,
+            "persistent": false,
+            "pickable": false,
+            "prefab": false,
+            "script": "assets/scripts/tiles/map.lua",
+            "solid": false,
+            "transform": {
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 1
+        },
+        {
+            "children": [],
+            "collidable": true,
+            "components": [
+                {
+                    "FlipX": false,
+                    "FlipY": false,
+                    "clip": {
+                        "height": 52.0,
+                        "width": 52.0,
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "color": {
+                        "a": 255,
+                        "b": 0,
+                        "g": 0,
+                        "r": 255
+                    },
+                    "graph": "player",
+                    "type": "SpriteComponent"
+                }
+            ],
+            "height": 54,
+            "layer": 1,
+            "name": "Player",
+            "originX": 15,
+            "originY": 25,
+            "persistent": false,
+            "pickable": false,
+            "prefab": false,
+            "script": "assets/scripts/tiles/player.lua",
+            "solid": false,
+            "transform": {
+                "pivot": {
+                    "x": 32.0,
+                    "y": 32.0
+                },
+                "position": {
+                    "x": 510.0,
+                    "y": 375.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 30
+        },
+        {
+            "children": [],
+            "collidable": true,
+            "components": [
+                {
+                    "FlipX": false,
+                    "FlipY": false,
+                    "clip": {
+                        "height": 64.0,
+                        "width": 64.0,
+                        "x": 320.0,
+                        "y": 0.0
+                    },
+                    "color": {
+                        "a": 255,
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                    },
+                    "graph": "player_run",
+                    "type": "SpriteComponent"
+                },
+                {
+                    "animations": [
+                        {
+                            "columns": 10,
+                            "count": 10,
+                            "duration": 0.0833333358168602,
+                            "graph": "player_run",
+                            "name": "run",
+                            "rows": 1
+                        }
+                    ],
+                    "type": "AnimatorComponent"
+                }
+            ],
+            "height": 32,
+            "layer": 1,
+            "name": "Animation",
+            "originX": 0,
+            "originY": 0,
+            "persistent": false,
+            "pickable": false,
+            "prefab": false,
+            "script": "",
+            "solid": false,
+            "transform": {
+                "pivot": {
+                    "x": 320.0,
+                    "y": 32.0
+                },
+                "position": {
+                    "x": 400.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 320
+        }
+    ],
+    "Images": [
+        {
+            "filename": "assets/Orb.png",
+            "key": "player"
+        },
+        {
+            "filename": "assets/Player/Run.png",
+            "key": "player_run"
+        },
+        {
+            "filename": "assets/tiles/atlas.png",
+            "key": "tiles"
+        },
+        {
+            "filename": "assets/Orb.png",
+            "key": "orb"
+        }
+    ],
+    "NumObjects": 3,
+    "SceneName": "Scene",
+    "SceneVersion": "0.1",
+    "Window": {
+        "b": 0,
+        "fps": 60,
+        "fullscreen": false,
+        "g": 0,
+        "heigh": 750,
+        "r": 0,
+        "title": "Moves",
+        "width": 1020
+    }
+}

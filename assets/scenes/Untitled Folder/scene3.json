@@ -1,0 +1,101 @@
+{
+    "Camera": {
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "rotation": 0.0,
+        "x": 0.0,
+        "y": 0.0,
+        "zoom": 1.0
+    },
+    "Developer": "Luis Santos",
+    "GameObjects": [
+        {
+            "children": [],
+            "depth": 0,
+            "height": 1.0,
+            "name": "main",
+            "originX": 0.0,
+            "originY": 0.0,
+            "persistent": true,
+            "prefab": false,
+            "script": "assets/scripts/moves/main.lua",
+            "solid": false,
+            "sprite": "None",
+            "transform": {
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 1.0
+        },
+        {
+            "children": [],
+            "depth": 0,
+            "height": 32.0,
+            "name": "player",
+            "originX": 0.0,
+            "originY": 0.0,
+            "persistent": false,
+            "prefab": false,
+            "script": "assets/scripts/moves/player.lua",
+            "solid": false,
+            "sprite": "wabbit",
+            "transform": {
+                "pivot": {
+                    "x": 16.0,
+                    "y": 16.0
+                },
+                "position": {
+                    "x": 200.0,
+                    "y": 200.0
+                },
+                "rotation": 0.0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "skew": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "visible": true,
+            "width": 32.0
+        }
+    ],
+    "Images": [
+        {
+            "filename": "assets/wabbit_alpha.png",
+            "key": "wabbit"
+        }
+    ],
+    "NumObjects": 2,
+    "SceneName": "Scene",
+    "SceneVersion": "0.1",
+    "ShowDebug": true,
+    "Window": {
+        "b": 0,
+        "fps": 60,
+        "fullscreen": false,
+        "g": 0,
+        "heigh": 750,
+        "r": 0,
+        "title": "Moves",
+        "width": 1020
+    }
+}
